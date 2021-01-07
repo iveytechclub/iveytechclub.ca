@@ -63,3 +63,13 @@
 #react-navbar li.nav-item a.nav-link:hover:after {
   width: 100%;
 }
+
+@media (max-width: 991px) {
+  #react-navbar li.nav-item.active a.nav-link {
+    border-bottom: 2px solid transparent;
+    color: var(--black);
+  }
+  #react-navbar li.nav-item a.nav-link:after {
+    background: transparent;
+  }
+}
