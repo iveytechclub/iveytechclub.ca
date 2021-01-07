@@ -11,7 +11,7 @@ class NavBar extends React.Component {
     return (
       <nav className="navbar navbar-expand-lg navbar-light fixed-top">
         <div className="container">
-          <a className="navbar-brand" href={"index"}>
+          <a className="navbar-brand" href="./">
             <img src={"./assets/logo.jpg"} className="navbar-logo" />
           </a>
           <button
@@ -32,7 +32,7 @@ class NavBar extends React.Component {
                   this.state.active == "home" ? "nav-item active" : "nav-item"
                 }
               >
-                <a className="nav-link ms-lg-4" href="index">
+                <a className="nav-link ms-lg-4" href="./">
                   Home
                 </a>
               </li>
@@ -41,7 +41,7 @@ class NavBar extends React.Component {
                   this.state.active == "events" ? "nav-item active" : "nav-item"
                 }
               >
-                <a className="nav-link ms-lg-4" href="pages/EventsPage/events">
+                <a className="nav-link ms-lg-4" href="events">
                   Events
                 </a>
               </li>

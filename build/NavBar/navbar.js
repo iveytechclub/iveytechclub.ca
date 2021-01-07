@@ -32,7 +32,7 @@ var NavBar = function (_React$Component) {
           { className: "container" },
           React.createElement(
             "a",
-            { className: "navbar-brand", href: "index" },
+            { className: "navbar-brand", href: "./" },
             React.createElement("img", { src: "./assets/logo.jpg", className: "navbar-logo" })
           ),
           React.createElement(
@@ -61,7 +61,7 @@ var NavBar = function (_React$Component) {
                 },
                 React.createElement(
                   "a",
-                  { className: "nav-link ms-lg-4", href: "index" },
+                  { className: "nav-link ms-lg-4", href: "./" },
                   "Home"
                 )
               ),
@@ -72,7 +72,7 @@ var NavBar = function (_React$Component) {
                 },
                 React.createElement(
                   "a",
-                  { className: "nav-link ms-lg-4", href: "pages/EventsPage/events" },
+                  { className: "nav-link ms-lg-4", href: "events" },
                   "Events"
                 )
               ),
