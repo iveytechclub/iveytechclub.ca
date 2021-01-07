@@ -52,7 +52,7 @@ class NavBar extends React.Component {
                     : "nav-item"
                 }
               >
-                <a className="nav-link ms-lg-4" href="#">
+                <a className="nav-link ms-lg-4" href="resources">
                   Resources
                 </a>
               </li>
@@ -65,7 +65,6 @@ class NavBar extends React.Component {
               >
                 <a
                   className="nav-link ms-lg-4"
-                  href="#"
                   id="navbarDropdownMenuLink"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -78,12 +77,12 @@ class NavBar extends React.Component {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="team">
                       Our Team
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="alumni">
                       Alumni
                     </a>
                   </li>

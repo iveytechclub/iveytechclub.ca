@@ -83,7 +83,7 @@ var NavBar = function (_React$Component) {
                 },
                 React.createElement(
                   "a",
-                  { className: "nav-link ms-lg-4", href: "#" },
+                  { className: "nav-link ms-lg-4", href: "resources" },
                   "Resources"
                 )
               ),
@@ -96,7 +96,6 @@ var NavBar = function (_React$Component) {
                   "a",
                   {
                     className: "nav-link ms-lg-4",
-                    href: "#",
                     id: "navbarDropdownMenuLink",
                     role: "button",
                     "data-bs-toggle": "dropdown",
@@ -115,7 +114,7 @@ var NavBar = function (_React$Component) {
                     null,
                     React.createElement(
                       "a",
-                      { className: "dropdown-item", href: "#" },
+                      { className: "dropdown-item", href: "team" },
                       "Our Team"
                     )
                   ),
@@ -124,7 +123,7 @@ var NavBar = function (_React$Component) {
                     null,
                     React.createElement(
                       "a",
-                      { className: "dropdown-item", href: "#" },
+                      { className: "dropdown-item", href: "alumni" },
                       "Alumni"
                     )
                   )
