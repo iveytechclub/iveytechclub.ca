@@ -1,0 +1,56 @@
+/* NavBar */
+
+#react-navbar {
+  font-weight: bold;
+  color: var(--dark-grey);
+  font-size: 16px;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+}
+
+#react-navbar .navbar-logo {
+  height: 60px;
+}
+
+@media (max-width: 400px) {
+  #react-navbar .navbar-logo {
+    height: 40px;
+  }
+}
+
+#react-navbar a.dropdown-item {
+  font-weight: bold;
+  color: var(--dark-grey);
+  font-size: 16px;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+}
+
+#react-navbar li.nav-item a.nav-link,
+#react-navbar li.nav-item a.nav-link:after,
+#react-navbar li.nav-item a.nav-link:before {
+  transition: all 0.2s;
+}
+
+#react-navbar li.nav-item.active a.nav-link {
+  border-bottom: 2px solid var(--dark-grey);
+}
+
+#react-navbar li.nav-item a.nav-link {
+  position: relative;
+}
+#react-navbar li.nav-item a.nav-link:after {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background: var(--dark-grey);
+  height: 2px;
+}
+#react-navbar li.nav-item a.nav-link:hover:after {
+  width: 100%;
+}

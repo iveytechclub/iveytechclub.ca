@@ -1,0 +1,24 @@
+{
+  "name": "iveytechclub.ca",
+  "version": "1.0.0",
+  "description": "Website for the Ivey Tech Club.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-jsx": "npx babel --watch components --out-dir build --presets react-app/prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iveytechclub/iveytechclub.ca.git"
+  },
+  "author": "Ivey Tech Club",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iveytechclub/iveytechclub.ca/issues"
+  },
+  "homepage": "https://github.com/iveytechclub/iveytechclub.ca#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}

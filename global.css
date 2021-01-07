@@ -1,4 +1,20 @@
+/* CSS for global styles and components (like navbar) go here. */
+
 html,
 body {
   font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --ivey-green: #034638;
+  --ivey-purple: #582c83;
+  --ivey-sand: #c5b783;
+  --ivey-light-green: #a6bb48;
+  --ivey-turquoise: #0097a0;
+  --black: #2d2d2d;
+  --dark-grey: #63666a;
+  --white: #ffffff;
+  --light-grey: #97999b;
+  --warm-grey: #7e7f74;
+  --light-warm-grey: #a8a99e;
 }
