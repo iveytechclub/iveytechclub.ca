@@ -20,7 +20,7 @@
 
 #react-navbar a.dropdown-item {
   font-weight: bold;
-  color: var(--white);
+  color: var(--dark-grey);
   font-size: 16px;
   letter-spacing: 0.125em;
   text-transform: uppercase;
@@ -32,7 +32,7 @@
   font-size: 16px;
   letter-spacing: 0.125em;
   text-transform: uppercase;
-  background-color: var(--dark-grey);
+  background-color: var(--white);
 }
 
 #react-navbar li.nav-item a.nav-link,
