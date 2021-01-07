@@ -136,7 +136,7 @@ var NavBar = function (_React$Component) {
                 },
                 React.createElement(
                   "a",
-                  { className: "nav-link ms-lg-4", href: "#" },
+                  { className: "nav-link ms-lg-4", href: "contact" },
                   "Contact"
                 )
               )

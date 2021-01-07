@@ -26,6 +26,15 @@
   text-transform: uppercase;
 }
 
+#react-navbar a.dropdown-item:active {
+  font-weight: bold;
+  color: var(--dark-grey);
+  font-size: 16px;
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  background-color: var(--dark-grey);
+}
+
 #react-navbar li.nav-item a.nav-link,
 #react-navbar li.nav-item a.nav-link:after,
 #react-navbar li.nav-item a.nav-link:before {

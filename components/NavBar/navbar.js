@@ -95,7 +95,7 @@ class NavBar extends React.Component {
                     : "nav-item"
                 }
               >
-                <a className="nav-link ms-lg-4" href="#">
+                <a className="nav-link ms-lg-4" href="contact">
                   Contact
                 </a>
               </li>
