@@ -15,7 +15,7 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 <details>
   <summary>Home Page</summary>
 
-# Companies
+### Companies
 
 1. From the root directory, navigate to **pages -> HomePage -> assets -> CompanyLogos**.
 2. Once you see the list of company logo files, click **Add file -> Upload files**, at the top right corner of the page.
@@ -32,7 +32,7 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 <details>
   <summary>Events Page</summary>
 
-# Events
+### Events
 
 TBD
 
