@@ -17,12 +17,40 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="./global.css" />
-    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <link rel="stylesheet" type="text/css" href="pages/HomePage/home.css" />
     <title>ITC Home</title>
   </head>
   <body>
     <div class="container">
       <div id="react-navbar"></div>
+      <section id="main-hero" class="">
+        <div class="row">
+          <div
+            class="col-sm-12 col-lg-6 d-flex flex-column justify-content-center align-items-start"
+          >
+            <h2 id="welcome-callout">Welcome to the</h2>
+            <h1 id="hero-title">Ivey Tech Club</h1>
+            <div id="typed-strings">
+              <p>We are <span id="typed-bold">developers</span>.</p>
+              <p>We are <span id="typed-bold">designers</span>.</p>
+              <p>We are <span id="typed-bold">hackers</span>.</p>
+              <p>We are <span id="typed-bold">creators</span>.</p>
+              <p>We are <span id="typed-bold">mentors</span>.</p>
+            </div>
+            <div><span id="typed"></span></div>
+          </div>
+          <div class="col-sm-12 col-lg-6" id="scene">
+            <div id="layer-1" data-depth="0.5">
+              <div id="primary-image" class="round-image"></div>
+            </div>
+            <div id="layer-2" data-depth="0.9">
+              <div id="secondary-image" class="round-image" data-depth="0.6">
+                <div id="secondary-image-content">&lt;/&gt;</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
     <!-- Bootstrap JS -->
     <script
@@ -50,5 +78,10 @@
       type="text/css"
       href="./components/NavBar/navbar.css"
     />
+    <!-- Load page-specific client scripts -->
+    <script src="pages/HomePage/typed.min.js"></script>
+    <script src="pages/HomePage/typed-driver.js"></script>
+    <script src="pages/HomePage/parallax.min.js"></script>
+    <script src="pages/HomePage/parallax-driver.js"></script>
   </body>
 </html>

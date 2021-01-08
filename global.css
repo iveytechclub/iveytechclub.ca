@@ -18,3 +18,21 @@ body {
   --warm-grey: #7e7f74;
   --light-warm-grey: #a8a99e;
 }
+
+h1 {
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--black);
+  line-height: 110px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+div.round-image {
+  border-radius: 50%;
+  box-shadow: 0px 8px 15px 5px rgba(47, 47, 47, 0.1);
+}

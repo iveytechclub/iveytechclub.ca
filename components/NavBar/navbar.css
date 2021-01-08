@@ -8,6 +8,10 @@
   text-transform: uppercase;
 }
 
+#react-navbar nav.navbar {
+  background: var(--white);
+}
+
 #react-navbar .navbar-logo {
   height: 60px;
 }
