@@ -33,6 +33,22 @@
       "logo_file": "ibm.png"
     },
     {
+      "name": "Hulu",
+      "logo_file": "hulu.png"
+    },
+    {
+      "name": "Instagram",
+      "logo_file": "instagram.png"
+    },
+    {
+      "name": "Bell",
+      "logo_file": "bell.png"
+    },
+    {
+      "name": "Robinhood",
+      "logo_file": "robinhood.png"
+    },
+    {
       "name": "Wealthsimple",
       "logo_file": "wealthsimple.jpg"
     },
