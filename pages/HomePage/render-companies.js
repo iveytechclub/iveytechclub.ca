@@ -12,11 +12,19 @@ function loadJSON(callback) {
 }
 
 window.addEventListener("load", function () {
+  const targetDiv = document.getElementById("logo-container");
   loadJSON((response) => {
     var companiesObject = JSON.parse(response);
     companiesObject.companies.forEach((company) => {
-      console.log(company.name);
-      console.log(company.logo_file);
+      const img = document.createElement("img");
+      img.setAttribute(
+        "src",
+        `pages/HomePage/assets/CompanyLogos/${company.logo_file}`
+      );
+      img.setAttribute("alt", `${company.name}`);
+      img.setAttribute("title", `${company.name}`);
+      img.setAttribute("class", "company-logo");
+      targetDiv.appendChild(img);
     });
   });
 });

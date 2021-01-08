@@ -144,6 +144,25 @@ section#about .provide-card:hover {
   background-image: url("assets/coffee.jfif");
 }
 
+#logo-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#logo-container .company-logo {
+  width: 175px;
+  height: auto;
+  margin: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+#logo-container .company-logo:hover {
+  transform: translateY(-8px);
+  transform: scale(1.05);
+}
+
 @media (min-width: 992px) {
   section#main-hero {
     padding-top: 120px;
