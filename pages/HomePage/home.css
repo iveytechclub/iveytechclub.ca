@@ -146,7 +146,7 @@ section#about .provide-card:hover {
 
 #logo-container {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
 }
