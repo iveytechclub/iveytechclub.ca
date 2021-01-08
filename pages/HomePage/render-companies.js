@@ -14,6 +14,9 @@ function loadJSON(callback) {
 window.addEventListener("load", function () {
   loadJSON((response) => {
     var companiesObject = JSON.parse(response);
-    console.log(companiesObject);
+    companiesObject.companies.forEach((company) => {
+      console.log(company.name);
+      console.log(company.logo_file);
+    });
   });
 });

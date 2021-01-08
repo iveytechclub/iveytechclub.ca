@@ -88,10 +88,16 @@ section#main-hero #secondary-image {
 section#about .provide-card {
   width: 236px;
   height: 350px;
-  box-shadow: 0px 8px 15px 5px rgba(47, 47, 47, 0.1);
+  box-shadow: var(--standard-shadow);
   border-radius: 4px;
   position: relative;
   margin-bottom: 50px;
+  transition: all 0.2s ease-in-out;
+}
+
+section#about .provide-card:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--lifted-shadow);
 }
 
 .provide-card div.provide-card-img {
