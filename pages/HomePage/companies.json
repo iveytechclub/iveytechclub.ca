@@ -1,0 +1,52 @@
+{
+  "companies": [
+    {
+      "name": "Google",
+      "logo_file": "google.png"
+    },
+    {
+      "name": "Facebook",
+      "logo_file": "facebook.png"
+    },
+    {
+      "name": "Microsoft",
+      "logo_file": "microsoft.png"
+    },
+    {
+      "name": "Amazon",
+      "logo_file": "amazon.png"
+    },
+    {
+      "name": "Uber",
+      "logo_file": "uber.png"
+    },
+    {
+      "name": "SAP",
+      "logo_file": "sap.png"
+    },
+    {
+      "name": "Nvidia",
+      "logo_file": "nvidia.png"
+    },
+    {
+      "name": "IBM",
+      "logo_file": "ibm.png"
+    },
+    {
+      "name": "Wealthsimple",
+      "logo_file": "wealthsimple.jpg"
+    },
+    {
+      "name": "McKinsey & Co.",
+      "logo_file": "mckinsey.png"
+    },
+    {
+      "name": "Boston Consulting Group",
+      "logo_file": "bcg.png"
+    },
+    {
+      "name": "Deloitte",
+      "logo_file": "deloitte.png"
+    }
+  ]
+}

@@ -30,6 +30,24 @@ h2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2.primary {
+  color: var(--ivey-green);
+}
+
+h2.secondary {
+  color: var(--ivey-light-green);
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 div.round-image {

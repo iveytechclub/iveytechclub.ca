@@ -85,6 +85,59 @@ section#main-hero #secondary-image {
   color: var(--ivey-light-green);
 }
 
+section#about .provide-card {
+  width: 236px;
+  height: 350px;
+  box-shadow: 0px 8px 15px 5px rgba(47, 47, 47, 0.1);
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.provide-card div.provide-card-img {
+  position: absolute;
+  top: 0;
+  height: 45%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.provide-card div.text-box {
+  position: absolute;
+  bottom: 0;
+  height: 55%;
+  width: 100%;
+  padding: 20px;
+}
+
+.provide-card div.text-box .card-title {
+  margin: 0;
+  padding: 0;
+}
+
+.provide-card div.text-box .card-paragraph {
+  font-size: 12px;
+}
+
+.provide-card div.provide-card-img#events {
+  background-image: url("assets/microphone.jfif");
+}
+
+.provide-card div.provide-card-img#resources {
+  background-image: url("assets/books.jpg");
+}
+
+.provide-card div.provide-card-img#mentorship {
+  background-image: url("assets/mentor.jfif");
+}
+
+.provide-card div.provide-card-img#network {
+  background-image: url("assets/coffee.jfif");
+}
+
 @media (min-width: 992px) {
   section#main-hero {
     padding-top: 120px;
