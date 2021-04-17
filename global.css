@@ -20,6 +20,14 @@ body {
 
   --standard-shadow: 0px 8px 15px 5px rgba(47, 47, 47, 0.1);
   --lifted-shadow: 0px 14px 18px 6px rgba(47, 47, 47, 0.1);
+
+  --offset-navbar: 86px;
+}
+
+@media (max-width: 400px) {
+  :root {
+    --offset-navbar: 66px;
+  }
 }
 
 h1 {

@@ -1,0 +1,4 @@
+div.events-page {
+  margin-top: var(--offset-navbar);
+  margin-bottom: 20px;
+}
