@@ -50,12 +50,9 @@ class EventCollection extends React.Component {
         );
         // compare with current date to determine if in past
         if (newDate.getTime() < Date.now()) {
-          console.log(newDate);
           // move to previous events
           previousArray.push(event);
         } else {
-          console.log(newDate, newDate.getTime());
-          console.log(Date.now());
           // move to future events
           upcomingArray.push(event);
         }
