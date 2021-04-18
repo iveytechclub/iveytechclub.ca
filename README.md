@@ -25,7 +25,7 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 6. Click on the **pencil icon** to edit the file, located in the top right corner of the file viewer.
 7. Following the JSON pattern, add entries to the array containing the name of the company and the **exact** name of the file and its extension. Make sure the last entry of the array does not have a comma following it.
 8. Once you've added all entries, click **Commit changes** at the bottom of the page.
-9. Wait for the website to respond to your changes. You should be good to go!
+9. Wait for the website to respond to your changes. __This may take a few minutes__. You should be good to go!
 
 </details>
 
@@ -42,6 +42,6 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 6. Click on the **pencil icon** to edit the file, located in the top right corner of the file viewer.
 7. Following the JSON pattern, add entries to the array containing all the relevant fields, and the **exact** name of the file and its extension. Make sure the last entry of the array does not have a comma following it. The recommended max length of the `description` field is 85 words, or about 450 characters. The date follows `DD-MM-YYYY` convention. The `registerLink` should be a URL, the button on the event will bring the user to the URL once clicked.
 8. Once you've added all entries, click **Commit changes** at the bottom of the page.
-9. Wait for the website to respond to your changes. You should be good to go! The component will automatically sort the events by upcoming and previous sections using the inputted date.
+9. Wait for the website to respond to your changes. __This may take a few minutes__. You should be good to go! The component will automatically sort the events by upcoming and previous sections using the inputted date.
 
 </details>
