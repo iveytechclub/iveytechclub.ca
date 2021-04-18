@@ -2,3 +2,218 @@ div.events-page {
   margin-top: var(--offset-navbar);
   margin-bottom: 20px;
 }
+
+div.events-page div.events-collection div.event-container {
+  display: flex;
+  box-shadow: var(--standard-shadow);
+  border-radius: 10px;
+  margin-bottom: 80px;
+  height: auto;
+}
+
+div.events-page div.events-collection div.event-container img.event-img {
+  width: 50%;
+  object-position: center;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+div.events-page div.events-collection div.event-container div.event-details {
+  padding: 15px 30px;
+  position: relative;
+  border-left: 4px solid #a8a99e1c;
+}
+div.events-page div.events-collection div.event-container div.event-details h2 {
+  margin: 0;
+  padding: 0;
+}
+
+div.events-page div.events-collection div.event-container div.event-details p {
+  display: block;
+  display: -moz-box;
+  display: -webkit-box;
+  max-width: 100%;
+  line-clamp: 6;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0;
+  margin-top: 16px;
+}
+
+div.events-page
+  div.events-collection
+  div.event-container
+  div.event-details
+  .event-logistics {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 30px;
+}
+
+div.events-page
+  div.events-collection
+  div.event-container
+  div.event-details
+  .event-logistics
+  .detail-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+div.events-page
+  div.events-collection
+  div.event-container
+  div.event-details
+  .event-logistics
+  i {
+  height: 40px;
+  width: 40px;
+  color: var(--ivey-light-green);
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.events-page
+  div.events-collection
+  div.event-container
+  div.event-details
+  .event-logistics
+  span.logistic-text {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+div.events-page
+  div.events-collection
+  div.event-container
+  div.event-details
+  button.absolute {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
+/* Responsive queries */
+
+@media (max-width: 1399px) {
+  div.events-page
+    div.events-collection
+    div.event-container
+    div.event-details
+    p {
+    display: block;
+    display: -moz-box;
+    display: -webkit-box;
+    max-width: 100%;
+    line-clamp: 5;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+    margin-top: 16px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1199px) {
+  div.events-page div.events-collection div.event-container {
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--standard-shadow);
+    border-radius: 10px;
+    margin-bottom: 60px;
+    height: auto;
+  }
+
+  div.events-page div.events-collection div.event-container img.event-img {
+    width: 100%;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+  }
+
+  div.events-page
+    div.events-collection
+    div.event-container
+    div.event-details
+    p {
+    font-size: 14px;
+    line-clamp: 6;
+    -webkit-line-clamp: 6;
+  }
+
+  div.events-page
+    div.events-collection
+    div.event-container
+    div.event-details
+    .event-logistics {
+    position: relative;
+  }
+
+  div.events-page div.events-collection div.event-container div.event-details {
+    border-left: none;
+    border-top: 4px solid #a8a99e1c;
+  }
+}
+
+@media (max-width: 767px) {
+  div.events-page
+    div.events-collection
+    div.event-container
+    div.event-details
+    button.absolute {
+    position: relative;
+    float: right;
+    right: 0;
+    bottom: 10px;
+  }
+
+  div.events-page
+    div.events-collection
+    div.event-container
+    div.event-details
+    .event-logistics
+    i {
+    height: 28px;
+    width: 28px;
+    color: var(--ivey-light-green);
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.events-page
+    div.events-collection
+    div.event-container
+    div.event-details
+    .event-logistics
+    span.logistic-text {
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  div.events-page
+  div.events-collection
+  div.event-container
+  div.event-details
+  p {
+  font-size: 14px;
+  line-clamp: 12;
+  -webkit-line-clamp: 12;
+}
+}

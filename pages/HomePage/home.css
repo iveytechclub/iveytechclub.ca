@@ -199,6 +199,13 @@ section#about .provide-card:hover {
   #secondary-image #secondary-image-content {
     font-size: 45px;
   }
+
+  #logo-container .company-logo {
+    width: 80px;
+    height: auto;
+    margin: 5px;
+    transition: all 0.2s ease-in-out;
+  }
 }
 
 @media (max-width: 440px) {
