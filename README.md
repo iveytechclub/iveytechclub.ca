@@ -2,6 +2,9 @@
 
 The source code for iveytechclub.ca!
 
+- HTML/CSS/JS website with custom rendered React components for dynamic portions.
+- Designed for non-technical users to be able to update `events`, `company logos`, `team`, `alumni`, and `resources`.
+
 ## Figma:
 
 https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
