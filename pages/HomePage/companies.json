@@ -63,6 +63,10 @@
     {
       "name": "Deloitte",
       "logo_file": "deloitte.png"
-    }
+    },
+    {
+      "name": "Accenture",
+      "logo_file": "accenture.png"
+    },
   ]
 }
