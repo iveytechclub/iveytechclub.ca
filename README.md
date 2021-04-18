@@ -10,7 +10,7 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 
 ## Documentation
 
-> This section contains information on how to update areas of the website that often need maintenance. Click to expand each page to see information on updating data for that page.
+> This section contains information on how to update areas of the website that often need maintenance. Click to expand each page to see information on updating data for that page. Before you begin, it may be helpful to keep this README open in a separate tab.
 
 <details>
   <summary>Home Page</summary>
