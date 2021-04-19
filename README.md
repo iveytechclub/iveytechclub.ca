@@ -38,7 +38,7 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 ### Events
 
 1. From the root directory, navigate to **pages -> EventsPage -> assets -> EventBanners**.
-2. Once you see the list of company logo files, click **Add file -> Upload files**, at the top right corner of the page. Recommend standard FB event banner size ratio, `1200 x 628 pixels (1.91:1 ratio)`.
+2. Once you see the list of event banner files, click **Add file -> Upload files**, at the top right corner of the page. Recommend standard FB event banner size ratio, `1200 x 628 pixels (1.91:1 ratio)`.
 3. Once you've added your logo files, click **Commit changes** at the bottom fo the page.
 4. Go back to the root directory by clicking on **/iveytechclub.ca** in the top left corner.
 5. From the root directory, navigate to **pages -> EventsPage -> events.json**.
@@ -48,3 +48,21 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 9. Wait for the website to respond to your changes. __This may take a few minutes__. You should be good to go! The component will automatically sort the events by upcoming and previous sections using the inputted date.
 
 </details>
+
+<details>
+  <summary>Resources Page</summary>
+
+### Resources
+
+1. From the root directory, navigate to **pages -> ResourcesPage -> assets -> ResourceImages**.
+2. Once you see the list of resource image files, click **Add file -> Upload files**, at the top right corner of the page.
+3. Once you've added your resource image files, click **Commit changes** at the bottom fo the page.
+4. Go back to the root directory by clicking on **/iveytechclub.ca** in the top left corner.
+5. From the root directory, navigate to **pages -> ResourcesPage -> resources.json**.
+6. Click on the **pencil icon** to edit the file, located in the top right corner of the file viewer.
+7. Following the JSON pattern, add entries to the array containing all the relevant fields, and the **exact** name of the image and its extension. Make sure the last entry of the array does not have a comma following it. The `link` should be a URL, the clicking the button under that resource will bring the user to the URL.
+8. Once you've added all entries, click **Commit changes** at the bottom of the page. You can also rearrange entries in the JSON to change the order they appear on the page. Entries are rendered left to write, top to bottom.
+9. Wait for the website to respond to your changes. __This may take a few minutes__. You should be good to go!
+
+</details>
+
