@@ -10,6 +10,7 @@ The source code for iveytechclub.ca!
 https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 
 ## 🚧 Under Construction
+Check out the deployed version at https://iveytechclub.github.io/iveytechclub.ca/.
 
 ## Documentation
 
