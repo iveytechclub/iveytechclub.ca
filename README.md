@@ -3,22 +3,36 @@
 The source code for iveytechclub.ca!
 
 - HTML/CSS/JS website with custom rendered React components for dynamic portions.
-- Designed for non-technical users to be able to update `events`, `company logos`, `team`, `alumni`, and `resources`.
+- Designed for non-technical users to be able to update `events`, `team`, `alumni`, `resources`, `company logos`, and the `family photo`.
 
 ## Figma:
 
 https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 
 ## 🚧 Under Construction
+Check out the deployed version at https://iveytechclub.github.io/iveytechclub.ca/.
 
 ## Documentation
 
 > This section contains information on how to update areas of the website that often need maintenance. Click to expand each page to see information on updating data for that page. __Before you begin, it may be helpful to keep this README open in a separate tab.__
 
 <details>
-  <summary>Home Page</summary>
+  <summary><ins>Home Page</ins></summary>
+  
+#### Family Photo
 
-### Companies
+1. From the root directory, navigate to **pages -> HomePage -> assets**.
+2. Click **Add file -> Upload files**, at the top right corner of the page.
+3. Upload the new image you want to display as the family photo. Make sure to note the file name and extension.
+4. Go back to the root directory by clicking on **/iveytechclub.ca** in the top left corner.
+5. Click on **index.html** in the list of files.
+6. Click on the **pencil icon** to edit the file, located in the top right corner of the file viewer.
+7. Locate line **58** of the file. It should be inside an `<img/>` tag with an id of `family-photo`. The code should look like this: `src="pages/HomePage/assets/{__some file here__}"`
+8. Change the file and extension at the end of the `src` entry to the file name and extension you just uploaded. Make sure you preserve the closing double quotes.
+9. Click **Commit changes** at the bottom of the page.
+10. Wait for the website to respond to your changes. __This may take a few minutes__. You should be good to go!
+
+#### Companies
 
 1. From the root directory, navigate to **pages -> HomePage -> assets -> CompanyLogos**.
 2. Once you see the list of company logo files, click **Add file -> Upload files**, at the top right corner of the page.
@@ -33,9 +47,9 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 </details>
 
 <details>
-  <summary>Events Page</summary>
+  <summary><ins>Events Page</ins></summary>
 
-### Events
+#### Events
 
 1. From the root directory, navigate to **pages -> EventsPage -> assets -> EventBanners**.
 2. Once you see the list of event banner files, click **Add file -> Upload files**, at the top right corner of the page. Recommend standard FB event banner size ratio, `1200 x 628 pixels (1.91:1 ratio)`.
@@ -50,9 +64,9 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 </details>
 
 <details>
-  <summary>Resources Page</summary>
+  <summary><ins>Resources Page</ins></summary>
 
-### Resources
+#### Resources
 
 1. From the root directory, navigate to **pages -> ResourcesPage -> assets -> ResourceImages**.
 2. Once you see the list of resource image files, click **Add file -> Upload files**, at the top right corner of the page.
