@@ -17,6 +17,19 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 
 <details>
   <summary>Home Page</summary>
+  
+### Family Photo
+
+1. From the root directory, navigate to **pages -> HomePage -> assets**.
+2. Click **Add file -> Upload files**, at the top right corner of the page.
+3. Upload the new image you want to display as the family photo. Make sure to note the file name and extension.
+4. Go back to the root directory by clicking on **/iveytechclub.ca** in the top left corner.
+5. Click on **index.html** in the list of files.
+6. Click on the **pencil icon** to edit the file, located in the top right corner of the file viewer.
+7. Locate line **58** of the file. It should look like `src="pages/HomePage/assets/{__some file here__}"`
+8. Change the file and extension at the end of the `src` entry to the file name and extension you just uploaded. Make sure you preserve the closing double quotes.
+9. Click **Commit changes** at the bottom of the page.
+10. Wait for the website to respond to your changes. __This may take a few minutes__. You should be good to go!
 
 ### Companies
 
