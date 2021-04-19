@@ -19,6 +19,7 @@ div.events-page div.events-collection div.event-container .event-img {
   background-size: cover;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+  position: relative;
 }
 
 div.events-page div.events-collection div.event-container .shine-img {
@@ -176,6 +177,10 @@ div.events-page
   div.events-page div.events-collection div.event-container div.event-details {
     border-left: none;
     border-top: 4px solid #a8a99e1c;
+  }
+
+  div.events-page div.events-collection div.event-container .shine-img {
+    display: hidden;
   }
 }
 
