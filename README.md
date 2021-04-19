@@ -26,7 +26,7 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 4. Go back to the root directory by clicking on **/iveytechclub.ca** in the top left corner.
 5. Click on **index.html** in the list of files.
 6. Click on the **pencil icon** to edit the file, located in the top right corner of the file viewer.
-7. Locate line **58** of the file. It should look like `src="pages/HomePage/assets/{__some file here__}"`
+7. Locate line **58** of the file. It should be inside an `<img/>` tag with an id of `family-photo`. The code should look like this: `src="pages/HomePage/assets/{__some file here__}"`
 8. Change the file and extension at the end of the `src` entry to the file name and extension you just uploaded. Make sure you preserve the closing double quotes.
 9. Click **Commit changes** at the bottom of the page.
 10. Wait for the website to respond to your changes. __This may take a few minutes__. You should be good to go!
