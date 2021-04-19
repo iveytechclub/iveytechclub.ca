@@ -18,7 +18,7 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 <details>
   <summary>Home Page</summary>
   
-### Family Photo
+#### Family Photo
 
 1. From the root directory, navigate to **pages -> HomePage -> assets**.
 2. Click **Add file -> Upload files**, at the top right corner of the page.
@@ -31,7 +31,7 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 9. Click **Commit changes** at the bottom of the page.
 10. Wait for the website to respond to your changes. __This may take a few minutes__. You should be good to go!
 
-### Companies
+#### Companies
 
 1. From the root directory, navigate to **pages -> HomePage -> assets -> CompanyLogos**.
 2. Once you see the list of company logo files, click **Add file -> Upload files**, at the top right corner of the page.
@@ -48,7 +48,7 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 <details>
   <summary>Events Page</summary>
 
-### Events
+#### Events
 
 1. From the root directory, navigate to **pages -> EventsPage -> assets -> EventBanners**.
 2. Once you see the list of event banner files, click **Add file -> Upload files**, at the top right corner of the page. Recommend standard FB event banner size ratio, `1200 x 628 pixels (1.91:1 ratio)`.
@@ -65,7 +65,7 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 <details>
   <summary>Resources Page</summary>
 
-### Resources
+#### Resources
 
 1. From the root directory, navigate to **pages -> ResourcesPage -> assets -> ResourceImages**.
 2. Once you see the list of resource image files, click **Add file -> Upload files**, at the top right corner of the page.
