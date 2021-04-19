@@ -100,11 +100,12 @@ var EventCollection = function (_React$Component) {
       return this.state[type].map(function (event, index) {
         return React.createElement(
           "div",
-          { index: index, className: "event-container" },
+          { index: index, className: "event-container shine" },
           React.createElement("img", {
             className: "event-img",
             src: "pages/EventsPage/assets/EventBanners/" + event.banner_file
           }),
+          React.createElement("div", { className: "shine-img" }),
           React.createElement(
             "div",
             { className: "event-details" },

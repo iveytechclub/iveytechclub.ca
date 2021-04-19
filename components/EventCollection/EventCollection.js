@@ -112,11 +112,12 @@ class EventCollection extends React.Component {
   renderEvents(type) {
     return this.state[type].map((event, index) => {
       return (
-        <div index={index} className="event-container">
+        <div index={index} className="event-container shine">
           <img
             className="event-img"
             src={"pages/EventsPage/assets/EventBanners/" + event.banner_file}
           ></img>
+          <div className="shine-img"></div>
           <div className="event-details">
             <h2 className="secondary">{event.eventName}</h2>
             <p>{event.description}</p>

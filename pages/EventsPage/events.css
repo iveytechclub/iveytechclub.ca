@@ -4,19 +4,30 @@ div.events-page {
 }
 
 div.events-page div.events-collection div.event-container {
+  position: relative;
   display: flex;
   box-shadow: var(--standard-shadow);
   border-radius: 10px;
   margin-bottom: 80px;
-  height: auto;
+  width: 100%;
 }
 
-div.events-page div.events-collection div.event-container img.event-img {
+div.events-page div.events-collection div.event-container .event-img {
   width: 50%;
-  object-position: center;
-  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+
+div.events-page div.events-collection div.event-container .shine-img {
+  position: absolute !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 50%;
+  overflow: hidden;
 }
 
 div.events-page div.events-collection div.event-container div.event-details {
@@ -63,6 +74,8 @@ div.events-page
   margin-top: 20px;
   display: flex;
   align-items: center;
+  z-index: 5;
+  position: relative;
 }
 
 div.events-page
@@ -134,10 +147,9 @@ div.events-page
     box-shadow: var(--standard-shadow);
     border-radius: 10px;
     margin-bottom: 60px;
-    height: auto;
   }
 
-  div.events-page div.events-collection div.event-container img.event-img {
+  div.events-page div.events-collection div.event-container .event-img {
     width: 100%;
     border-bottom-left-radius: 0px;
     border-top-right-radius: 10px;
@@ -208,12 +220,12 @@ div.events-page
   }
 
   div.events-page
-  div.events-collection
-  div.event-container
-  div.event-details
-  p {
-  font-size: 14px;
-  line-clamp: 12;
-  -webkit-line-clamp: 12;
-}
+    div.events-collection
+    div.event-container
+    div.event-details
+    p {
+    font-size: 14px;
+    line-clamp: 12;
+    -webkit-line-clamp: 12;
+  }
 }

@@ -1,0 +1,52 @@
+{
+  "resources": [
+    {
+      "name": "PM Prep Group",
+      "description": "Facebook group supporting individuals interested in Product Management recruiting.",
+      "image": "fb-group-default.png",
+      "link": "https://www.facebook.com/IveyTechnologyClub/"
+    },
+    {
+      "name": "Ivey Product Society",
+      "description": "An alumni-run community of Ivey alumni and students helping people start and advance their careers in Product Management.",
+      "image": "ivey-product-society.jpg",
+      "link": "https://www.facebook.com/iveyproduct"
+    },
+    {
+      "name": "Cracking the PM Interview",
+      "description": "Book covering details of the product manager interview process.",
+      "image": "cracking-the-pm-interview.jpg",
+      "link": "https://www.crackingthepminterview.com/"
+    },
+    {
+      "name": "Cracking the Coding Interview",
+      "description": "Book covering details of the technical interview process.",
+      "image": "cracking-the-coding-interview.jpg",
+      "link": "https://www.crackingthecodinginterview.com/"
+    },
+    {
+      "name": "Decode and Conquer",
+      "description": "Book dedicated to PM interview questions and potential answers.",
+      "image": "decode-and-conquer.png",
+      "link": "https://www.lewis-lin.com/decode-and-conquer"
+    },
+    {
+      "name": "Swipe to Unlock",
+      "description": "Book that explains key technologies and business strategies, aimed at non-technical people.",
+      "image": "swipe-to-unlock.png",
+      "link": "https://swipetounlock.com/"
+    },
+    {
+      "name": "APM List",
+      "description": "Website that lists companies that hire entry-level (associate) or intern PM roles and their timelines.",
+      "image": "apm-list.png",
+      "link": "https://apmlist.com/"
+    },
+    {
+      "name": "Breaking Into Tech",
+      "description": "External website with overviews of non-technical roles.",
+      "image": "break-into-tech.jpg",
+      "link": "https://www.breakinto.tech/"
+    }
+  ]
+}
