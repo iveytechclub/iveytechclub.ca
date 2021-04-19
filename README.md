@@ -16,7 +16,7 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 > This section contains information on how to update areas of the website that often need maintenance. Click to expand each page to see information on updating data for that page. __Before you begin, it may be helpful to keep this README open in a separate tab.__
 
 <details>
-  <summary>Home Page</summary>
+  <summary><ins>Home Page</ins></summary>
   
 #### Family Photo
 
@@ -46,7 +46,7 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 </details>
 
 <details>
-  <summary>Events Page</summary>
+  <summary><ins>Events Page</ins></summary>
 
 #### Events
 
@@ -63,7 +63,7 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 </details>
 
 <details>
-  <summary>Resources Page</summary>
+  <summary><ins>Resources Page</ins></summary>
 
 #### Resources
 
