@@ -102,6 +102,7 @@ div.round-image {
 
 .shine div.shine-img {
   position: relative;
+  overflow: hidden;
 }
 
 .shine:hover div.shine-img:after {
