@@ -180,7 +180,7 @@ div.events-page
   }
 
   div.events-page div.events-collection div.event-container .shine-img {
-    display: hidden;
+    display: none;
   }
 }
 
