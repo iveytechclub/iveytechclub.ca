@@ -1,0 +1,141 @@
+div.contact-page {
+  margin-top: var(--offset-navbar);
+  margin-bottom: 20px;
+}
+
+div.contact-page h2.text-center {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+div.col-lg-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.contact-page .online-item {
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--standard-shadow);
+  border-radius: 10px;
+  height: 475px;
+  width: 300px;
+  box-sizing: border-box;
+  padding: 20px;
+  align-items: center;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  div.contact-page .online-item {
+    height: 400px;
+    width: 280px;
+  }
+}
+
+div.contact-page .online-item .shine-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #a8a99e1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  div.contact-page .online-item .shine-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+div.contact-page .online-item h2 {
+  margin-top: 40px;
+}
+
+@media (max-width: 767px) {
+  div.contact-page .online-item h2 {
+    margin-top: 20px;
+  }
+}
+
+div.contact-page .online-item.fb {
+  border-top: 20px solid var(--ivey-green);
+}
+
+div.contact-page .online-item.exec {
+  border-top: 20px solid var(--ivey-light-green);
+}
+
+div.contact-page .online-item.comms {
+  border-top: 20px solid var(--ivey-purple);
+}
+
+div.contact-page .online-item i {
+  font-size: 60px;
+  color: var(--light-grey);
+}
+
+@media (max-width: 767px) {
+  div.contact-page .online-item i {
+    font-size: 40px;
+  }
+}
+
+div.contact-page .online-item.fb i.fa-facebook-f {
+  font-size: 20px;
+  color: #3b5998;
+  position: absolute;
+  top: 40%;
+}
+
+@media (max-width: 767px) {
+  div.contact-page .online-item.fb i.fa-facebook-f {
+    font-size: 14px;
+  }
+}
+
+div.contact-page .online-item a {
+  position: absolute;
+  bottom: 30px;
+  text-decoration: none;
+}
+
+div.contact-page h2.second {
+  margin-top: 50px;
+}
+
+div.contact-page div.ivey-container {
+  box-shadow: var(--standard-shadow);
+  margin: 0px 70px 100px 70px;
+  border-radius: 10px;
+  border-right: 20px solid var(--ivey-green);
+  padding: 30px;
+}
+
+div.contact-page div.ivey-img {
+  background-image: url("./assets/ivey-building.webp");
+  width: 480px;
+  height: 306px;
+  border-radius: 4px;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 767px) {
+  div.contact-page div.ivey-container {
+    flex-direction: column;
+    padding: 20px;
+  margin: 0px 30px 100px 30px;
+  }
+  div.contact-page div.ivey-img {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+div.contact-page div.ivey-container a {
+  text-decoration: none;
+}
