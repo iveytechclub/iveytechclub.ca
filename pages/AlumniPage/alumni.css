@@ -1,0 +1,87 @@
+div.alumni-page {
+  margin-top: var(--offset-navbar);
+  margin-bottom: 20px;
+}
+
+div.alumni-page div.cohort-team-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--light-light-grey);
+}
+
+div.alumni-page div.person-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 220px;
+  width: 180px;
+  margin: 20px;
+}
+
+div.alumni-page div.person-container div.circle {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 10px solid var(--white);
+  box-shadow: var(--standard-shadow);
+  box-shadow: border-box;
+  transition: 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+div.alumni-page div.person-container div.person-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  background-size: cover;
+  transition: 0.3s ease-in-out;
+}
+
+div.alumni-page div.person-container:hover div.circle {
+  transform: translateY(-8px);
+  box-shadow: var(--lifted-shadow);
+}
+
+div.alumni-page div.person-container:hover div.person-img {
+  filter: blur(6px) brightness(0.8);
+  -webkit-filter: blur(6px) brightness(0.8);
+}
+
+div.alumni-page div.person-container div.circle div.linkedin-overlay {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  right: 40px;
+  left: 40px;
+  background-color: var(--white);
+  border-radius: 50%;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #2867b2;
+}
+
+div.alumni-page div.person-container:hover div.circle div.linkedin-overlay {
+  opacity: 1;
+}
+
+div.alumni-page div.person-container div.person-name {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+div.alumni-page div.person-container div.person-role {
+  color: var(--warm-grey);
+  font-size: 0.8rem;
+}

@@ -17,6 +17,7 @@ body {
   --light-grey: #97999b;
   --warm-grey: #7e7f74;
   --light-warm-grey: #a8a99e;
+  --light-light-grey: #a8a99e1c;
 
   --standard-shadow: 0px 8px 15px 5px rgba(47, 47, 47, 0.1);
   --lifted-shadow: 0px 14px 18px 6px rgba(47, 47, 47, 0.1);

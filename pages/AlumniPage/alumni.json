@@ -1,0 +1,163 @@
+{
+  "alumniCohorts": [
+    {
+      "year": "2020-2021",
+      "team": [
+        {
+          "imgURL": "lucille_xiong.jpg",
+          "name": "Lucille Xiong",
+          "role": "Co-President",
+          "linkedin": "https://www.linkedin.com/in/lucillexiong/"
+        },
+        {
+          "imgURL": "cem_torun.jpg",
+          "name": "Cem Torun",
+          "role": "Co-President",
+          "linkedin": "https://www.linkedin.com/in/cem-torun/"
+        },
+        {
+          "imgURL": "andrew_liu.jpg",
+          "name": "Andrew Liu",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/andrewliu12/"
+        },
+        {
+          "imgURL": "zain_huda.png",
+          "name": "Zain Huda",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/zainhuda/"
+        },
+        {
+          "imgURL": "maanasa_pillai.jpg",
+          "name": "Maanasa Pillai",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/maanasa-pillai/"
+        },
+        {
+          "imgURL": "brock_lumbard.heic",
+          "name": "Brock Lumbard",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/brocklumbard/"
+        },
+        {
+          "imgURL": "jenny_li.jpg",
+          "name": "Jenny Li",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/lijennifer2/"
+        },
+        {
+          "imgURL": "jeffrey_chen.jpg",
+          "name": "Jeffrey Chen",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/jeffreychen27/"
+        }
+      ]
+    },
+    {
+      "year": "2019-2020",
+      "team": [
+        {
+          "imgURL": "dapo_folami.jpg",
+          "name": "Dapo Folami",
+          "role": "Co-President",
+          "linkedin": "https://www.linkedin.com/in/dapo-folami-39a8b8126/"
+        },
+        {
+          "imgURL": "jane_wang.jpg",
+          "name": "Jane Wang",
+          "role": "Co-President",
+          "linkedin": "https://www.linkedin.com/in/janewa/"
+        },
+        {
+          "imgURL": "alyssa_co.jpg",
+          "name": "Alysaa Co",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/alysaa-co-b8a51164/"
+        },
+        {
+          "imgURL": "christine_richards.jpg",
+          "name": "Christine Richards",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/-christinerichards/"
+        },
+        {
+          "imgURL": "bohan_jiang.jpg",
+          "name": "Bohan Jiang",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/bohanjiang/"
+        },
+        {
+          "imgURL": "brock_lumbard.jpg",
+          "name": "Brock Lumbard",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/brocklumbard/"
+        },
+        {
+          "imgURL": "fawaz_mohammad.jpg",
+          "name": "Fawaz Mohammad",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/fawazmohammad/"
+        }
+      ]
+    },
+    {
+      "year": "2018-2019",
+      "team": [
+        {
+          "imgURL": "gary_shen.png",
+          "name": "Gary Shen",
+          "role": "Co-President",
+          "linkedin": "https://www.linkedin.com/in/gshen7/"
+        },
+        {
+          "imgURL": "shan_srikanthan.jpeg",
+          "name": "Shan Srikanthan",
+          "role": "Co-President",
+          "linkedin": "https://www.linkedin.com/in/shansrikanthan/"
+        },
+        {
+          "imgURL": "austin_baggio.jpeg",
+          "name": "Austin Baggio",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/austinbaggio/"
+        },
+        {
+          "imgURL": "michelle_chen.jpeg",
+          "name": "Michelle Chen",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/mchenco/"
+        },
+        {
+          "imgURL": "jason_cho.jpg",
+          "name": "Jason Cho",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/jason-cho-83456a113/"
+        },
+        {
+          "imgURL": "katja_kirtavit.jpeg",
+          "name": "Katja Kirtavit",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/larissa-katja-kirtavit/"
+        },
+        {
+          "imgURL": "anirudha_nandi.jpeg",
+          "name": "Anirudha Nandi",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/anirudha-nandi/"
+        },
+        {
+          "imgURL": "katherine_tang.jpeg",
+          "name": "Katherine Tang",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/ktang01/"
+        },
+        {
+          "imgURL": "amy_wang.jpeg",
+          "name": "Amy Wang",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/amyhmwang/"
+        }
+      ]
+    }
+  ]
+}
