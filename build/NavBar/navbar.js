@@ -101,7 +101,8 @@ var NavBar = function (_React$Component) {
                     "data-bs-toggle": "dropdown",
                     "aria-expanded": "false"
                   },
-                  "People"
+                  "People ",
+                  React.createElement("i", { className: "fas fa-caret-down" })
                 ),
                 React.createElement(
                   "ul",

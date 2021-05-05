@@ -69,7 +69,7 @@ class NavBar extends React.Component {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  People
+                  People <i className="fas fa-caret-down"></i>
                 </a>
                 <ul
                   className="dropdown-menu"
