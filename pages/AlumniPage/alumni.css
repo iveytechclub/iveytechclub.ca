@@ -3,6 +3,11 @@ div.alumni-page {
   margin-bottom: 20px;
 }
 
+div.alumni-page p.alumni-message {
+  font-weight: bold;
+  color: var(--dark-grey);
+}
+
 div.alumni-page div.cohort-team-list {
   display: flex;
   flex-wrap: wrap;
@@ -40,7 +45,7 @@ div.alumni-page div.person-container div.person-img {
   bottom: 0;
   left: 0;
   right: 0;
-  background-position: center;
+  background-position: center top;
   background-size: cover;
   transition: 0.3s ease-in-out;
 }

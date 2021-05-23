@@ -1,0 +1,85 @@
+{
+  "currentTeam": [
+    {
+      "imgURL": "donna_xue.jpg",
+      "name": "Donna Xue",
+      "role": "Co-President",
+      "linkedin": "https://www.linkedin.com/in/donnaxue/",
+      "workExperience": "PM @ Microsoft",
+      "whyTech": "Technology holds so much positive potential in impacting the lives of all consumers — from Tap Tap Revenge to pocket mental health resources, tech has raised me and helped me live happier!",
+      "preIveyProgram": "Computer Science"
+    },
+    {
+      "imgURL": "sajin_kowser.jpg",
+      "name": "Sajin Kowser",
+      "role": "Co-President",
+      "linkedin": "https://www.linkedin.com/in/sajinkowser/",
+      "workExperience": "TPM @ Uber",
+      "whyTech": "I've always wanted super powers growing up & building with tech was the closest thing to that.",
+      "preIveyProgram": "Computer Science"
+    },
+    {
+      "imgURL": "prapthi_agarwala.JPG",
+      "name": "Prapthi Agarwala",
+      "role": "VP Operations",
+      "linkedin": "https://www.linkedin.com/in/prapthiagarwala/",
+      "workExperience": "PM @ Baaz",
+      "whyTech": "Tech allows me to do all I've wanted to do, which is make a positive impact and build things!",
+      "preIveyProgram": "Computer Science"
+    },
+    {
+      "imgURL": "david_george.PNG",
+      "name": "David George",
+      "role": "VP Development",
+      "linkedin": "https://www.linkedin.com/in/david-george-8a0934121/",
+      "workExperience": "SWE @ Quorum Software",
+      "whyTech": "The unique combination of logical problem solving with an inherent human focus,  makes tech a beautiful myriad of different disciplines – one ripe with incredible stories, great triumphs and a fundamental optimism for a better future.",
+      "preIveyProgram": "Computer Science"
+    },
+    {
+      "imgURL": "jenny_song.jpg",
+      "name": "Jenny Song",
+      "role": "Co-VP Mentorship",
+      "linkedin": "https://www.linkedin.com/in/songjenn/",
+      "workExperience": "PM @ Microsoft",
+      "whyTech": "Technology gives us the power to postitively impact the lives of millions of people around the world, and I want to create that change.",
+      "preIveyProgram": "Software Engineering"
+    },
+    {
+      "imgURL": "sam_zhang.jpg",
+      "name": "Sam Zhang",
+      "role": "Co-VP Mentorship",
+      "linkedin": "https://www.linkedin.com/in/samuelzhang2000/",
+      "workExperience": "PM @ Microsoft",
+      "whyTech": "The frontier for solving the world's most challenging problems is the innovation in and application of tech. With so many opportunities to make impact, how can you not get excited!",
+      "preIveyProgram": "Computer Science"
+    },
+    {
+      "imgURL": "owen_hodges.jpeg",
+      "name": "Owen Hodges",
+      "role": "VP Communications",
+      "linkedin": "https://www.linkedin.com/in/owenhodgesuwo",
+      "workExperience": "PM @ Health-Tech Startup",
+      "whyTech": "Tech is taking on some of the world’s biggest challenges and making the seemingly impossible, possible. Careers in the tech industry have the greatest potential to impact people's lives directly and to play a leading role in shaping the future.",
+      "preIveyProgram": "BMOS"
+    },
+    {
+      "imgURL": "amanda_adam.jpg",
+      "name": "Amanda Adam",
+      "role": "Co-VP Events",
+      "linkedin": "https://linkedin.com/in/adamamanda",
+      "workExperience": "Tech Consulting & PM @ Deloitte",
+      "whyTech": "Tech has allowed me to explore my passion for entrepreneurship. I enjoy solving complex problems, and with tech, I can develop and implement creative solutions to these challenges!",
+      "preIveyProgram": "Software Engineering"
+    },
+    {
+      "imgURL": "sam_mcdougall.jpg",
+      "name": "Sam McDougall",
+      "role": "Co-VP Events",
+      "linkedin": "https://www.linkedin.com/in/samanthamcdougall",
+      "workExperience": "Tech Consulting @ Deloitte",
+      "whyTech": "I have always loved the left-brain and right-brain duality of tech - solving problems using analytical and logical as well as creative and innovative thinking. I wanted to play a role in the fast-paced technology industry, shaping our future with challenging and varying work in high demand.",
+      "preIveyProgram": "Software Engineering"
+    }
+  ]
+}

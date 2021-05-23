@@ -1,0 +1,172 @@
+div.team-page {
+  margin-top: var(--offset-navbar);
+  margin-bottom: 20px;
+}
+
+div.team-page div.team-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+div.team-page div.team-container div.member-container {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 991px) {
+  div.team-page div.team-container div.member-container {
+    border-bottom: 4px solid var(--light-light-grey);
+  }
+}
+
+/* Make member cards flex vertically for mobile views, with some styling changes */
+
+@media (max-width: 991px) {
+  div.team-page div.team-container div.member-container {
+    flex-direction: column;
+  }
+}
+
+div.team-page div.team-container div.member-container div.left {
+  display: flex;
+  justify-content: center;
+  border-right: 4px solid var(--light-light-grey);
+}
+
+@media (max-width: 991px) {
+  div.team-page div.team-container div.member-container div.left {
+    border-right: none;
+  }
+}
+
+div.team-page div.team-container div.member-container div.person-img {
+  margin-right: 50px;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 10px solid var(--white);
+  box-shadow: var(--standard-shadow);
+}
+
+@media (max-width: 991px) {
+  div.team-page div.team-container div.member-container div.person-img {
+    margin-right: 0;
+    height: 200px;
+    width: 200px;
+  }
+}
+
+div.team-page div.team-container div.member-container div.right {
+  padding: 50px;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  div.team-page div.team-container div.member-container div.right {
+    padding: 30px;
+  }
+}
+
+div.team-page
+  div.team-container
+  div.member-container
+  div.right
+  h4.name-heading {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--ivey-green);
+}
+
+div.team-page
+  div.team-container
+  div.member-container
+  div.right
+  h4.role-heading {
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--dark-grey);
+}
+
+div.team-page div.team-container div.member-container div.right a.linkedin {
+  text-decoration: none;
+  user-select: none;
+  display: block;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  color: #0072b1;
+  transition: all 0.2s ease-in-out;
+}
+
+div.team-page
+  div.team-container
+  div.member-container
+  div.right
+  a.linkedin:hover {
+  color: #259ddf;
+}
+
+div.team-page div.team-container div.member-container div.right div.subheading {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 10px;
+}
+
+div.team-page div.team-container div.member-container div.right div.label {
+  color: var(--black);
+  font-weight: bold;
+  width: 175px;
+  display: inline-table;
+}
+
+@media (max-width: 991px) {
+  div.team-page
+    div.team-container
+    div.member-container
+    div.right
+    h4.name-heading,
+  div.team-page
+    div.team-container
+    div.member-container
+    div.right
+    h4.role-heading,
+  div.team-page div.team-container div.member-container div.right a.linkedin {
+    text-align: center;
+  }
+
+  div.team-page
+    div.team-container
+    div.member-container
+    div.right
+    div.subheading.why-tech {
+    flex-wrap: wrap;
+  }
+
+  div.team-page
+    div.team-container
+    div.member-container
+    div.right
+    div.info.why-tech {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  div.team-page div.team-container div.member-container div.right div.label {
+    width: 130px;
+  }
+  div.team-page
+    div.team-container
+    div.member-container
+    div.right
+    div.subheading {
+    font-size: 0.8rem;
+  }
+}
