@@ -34,6 +34,14 @@ div.contact-page .online-item {
   }
 }
 
+@media (max-width: 575px) {
+  div.contact-page .online-item {
+    height: 320px;
+    width: 280px;
+    padding: 20px;
+  }
+}
+
 div.contact-page .online-item .shine-img {
   width: 150px;
   height: 150px;
@@ -58,6 +66,18 @@ div.contact-page .online-item h2 {
 @media (max-width: 767px) {
   div.contact-page .online-item h2 {
     margin-top: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+  div.contact-page .online-item h2 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  div.contact-page .online-item p.online-item-description {
+    padding: 0;
   }
 }
 
@@ -101,6 +121,12 @@ div.contact-page .online-item a {
   position: absolute;
   bottom: 30px;
   text-decoration: none;
+}
+
+@media (max-width: 575px) {
+  div.contact-page .online-item a {
+    bottom: 20px;
+  }
 }
 
 div.contact-page h2.second {
