@@ -114,7 +114,7 @@ This site is built using a mix of React, Bootstrap and vanilla HTML/CSS/JS.
 Pages that feature repetitive components (like the Team page) use React to render HTML dynamically from JSON. This was done to make updating the pages fairly simnple. If you have any questions, please reach out to **jchen.hba2021@ivey.ca**.
 
 1. Clone this repo to your local machine.
-2. After running `npm install`, you can run `live-server` in the root directory to get a development server running with hot reloading.
+2. After running `npm install`, you can run `live-server` in the root directory to get a development server running with hot reloading. The navbar links might appear broken, but you have to append `.html` manually. Github takes care of this in the production version for us (so we can avoid having the `.html` appear in the URL).
 3. You can run `npm run watch-jsx` to run the React compiler, which will listen for changes and build components from the `components` folder into the `build` folder. You only need to do this if you are revising the React components.
 4. **To-Do:**
 - Refactor to use Sass or some other tool to make typing CSS less cumbersome. Otherwise, pay attention to CSS specificity patterns to avoid unintended styling.
