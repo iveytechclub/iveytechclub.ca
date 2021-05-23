@@ -13,9 +13,9 @@ https://www.figma.com/file/xhRnCRDWI4jLFfMv4VIIQ7/Ivey-Tech-Club
 
 Check out the deployed version at https://iveytechclub.github.io/iveytechclub.ca/.
 
-## Documentation
+## Non-Technical Documentation
 
-> This section contains information on how to update areas of the website that often need maintenance. Click to expand each page to see information on updating data for that page. **Before you begin, it may be helpful to keep this README open in a separate tab.**
+> This section contains information on how to update areas of the website that often need maintenance. It is aimed at admins who aren't familiar with Git or web development. Click to expand each page to see information on updating data for that page. **Before you begin, it may be helpful to keep this README open in a separate tab.**
 
 <details>
   <summary><ins>Home Page</ins></summary>
@@ -87,16 +87,16 @@ Check out the deployed version at https://iveytechclub.github.io/iveytechclub.ca
 #### People (Team/Alumni Pages)
 
 1. From the root directory, navigate to **pages -> TeamPage -> assets -> TeamPhotos**.
-2. Once you see the list of team member image files, click **Add file -> Upload files**, at the top right corner of the page. We recommend JPEG files no larger than `100kB`, at a resolution of about `700x700px` (square cropped), to optimize loading times.
+2. Once you see the list of team member image files, click **Add file -> Upload files**, at the top right corner of the page. We recommend JPEG files no larger than `100kB`, at a resolution of about `700x700px` (square cropped), to optimize loading times. It may help to follow naming convention `firstname_lastname.xxx`. 
 3. Once you've added your image files, click **Commit changes** at the bottom of the page.
 4. Go back to the root directory by clicking on **/iveytechclub.ca** in the top left corner.
 5. From the root directory, navigate to **pages -> TeamPage -> team.json**.
 6. Click on the **pencil icon** to edit the file, located in the top right corner of the file viewer.
 7. Cut the old JSON array (all the data inside the square brackets `[]`) and paste it somewhere else (we will move it to the alumni page).
-8. Replace the array with new entries containing all the relevant fields, and the **exact** name of each person's image and its extension. It may help to follow naming convension `firstname_lastname.jpeg`. Make sure the last entry of the array does not have a comma following it. The `linkedin` field should be a LinkedIn URL starting with `https://`.
-9. Once you've added all entries, click **Commit changes** at the bottom of the page. You can also rearrange entries in the JSON to change the order they appear on the page. Entries are rendered left to write, top to bottom.
+8. Replace the array with new entries containing all the relevant fields, and the **exact** name of each person's image and its extension. Make sure the last entry of the array does not have a comma following it. The `linkedin` field should be a LinkedIn URL starting with `https://`. Ensure that what you've added follows proper JSON format.
+9. Once you've added all entries, click **Commit changes** at the bottom of the page.
 10. Go back to the root directory by clicking on **/iveytechclub.ca** in the top left corner.
-11. Fro mthe root directory, navigate to **pages -> AlumniPage -> alumni.json**.
+11. From the root directory, navigate to **pages -> AlumniPage -> alumni.json**.
 12. Click on the **pencil icon** to edit the file, located in the top right corner of the file viewer.
 13. Insert a new JSON object, `{},` at the start of the array (after the `[` bracket.). Inside these curly brackets, type a new line `"year": "2021-2022",`, corresponding to the outbound team's year. In another new line, type `"team":` and then **paste** in the JSON array you cut earlier with the old team's data. Ensure that all JSON syntax is correct (refer to previous years).
 14. Once you're done, click **Commit changes** at the bottom of the page.
