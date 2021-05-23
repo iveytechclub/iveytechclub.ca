@@ -103,3 +103,19 @@ Check out the deployed version at https://iveytechclub.github.io/iveytechclub.ca
 15. Wait for the website to respond to your changes. **This may take a few minutes**. You should be good to go!
 
 </details>
+
+## Get Started (Technical)
+
+> This section contains information on how to run the site on your local machine. You should be familiar with **HTML, CSS, JavaScript, NPM, React, and Git**.
+
+### General Notes:
+
+This site is built using a mix of React, Bootstrap and vanilla HTML/CSS/JS.
+Pages that feature repetitive components (like the Team page) use React to render HTML dynamically from JSON. This was done to make updating the pages fairly simnple. If you have any questions, please reach out to **jchen.hba2021@ivey.ca**.
+
+1. Clone this repo to your local machine.
+2. After running `npm install`, you can run `live-server` in the root directory to get a development server running with hot reloading.
+3. You can run `npm run watch-jsx` to run the React compiler, which will listen for changes and build components from the `components` folder into the `build` folder. You only need to do this if you are revising the React components.
+4. **To-Do:**
+- Refactor to use Sass or some other tool to make typing CSS less cumbersome. Otherwise, pay attention to CSS specificity patterns to avoid unintended styling.
+- Consider adding calendar to the `events` page?
