@@ -18,7 +18,6 @@ class TeamCollection extends React.Component {
     super(props);
     this.state = { team: [] };
   }
-  componentDidMount;
   componentDidMount() {
     loadJSON((response) => {
       const team = [];

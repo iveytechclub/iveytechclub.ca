@@ -259,3 +259,89 @@ button.social:hover {
 button.social.linkedin:hover {
   color: #0072b1;
 }
+
+/* Beginning of footer styling */
+
+div.footer-container {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+div.footer-container div.social-buttons-container {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+div.footer-container div.social-buttons-container a.social-button {
+  margin: 0px 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: var(--standard-shadow);
+  padding: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  user-select: none;
+  color: var(--black);
+  font-size: 1.2rem;
+  transition: 0.2s all ease-in-out;
+}
+
+@media (max-width: 575px) {
+  div.footer-container div.social-buttons-container a.social-button {
+    height: 40px;
+    width: 40px;
+    font-size: 1rem;
+  }
+}
+
+div.footer-container div.social-buttons-container a.social-button:hover {
+  box-shadow: var(--lifted-shadow);
+  transform: translateY(-4px);
+}
+
+div.footer-container
+  div.social-buttons-container
+  a.social-button.facebook:hover {
+  color: #4267b2;
+}
+
+div.footer-container
+  div.social-buttons-container
+  a.social-button.linkedin:hover {
+  color: #0072b1;
+}
+
+div.footer-container div.social-buttons-container a.social-button.github:hover {
+  color: var(--dark-grey);
+}
+
+div.footer-container div.social-buttons-container a.social-button.medium:hover {
+  color: #34a245;
+}
+
+div.footer-container p.footnote {
+  color: var(--dark-grey);
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  div.footer-container p.footnote {
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  div.footer-container p.footnote {
+    font-size: 0.6rem;
+  }
+}

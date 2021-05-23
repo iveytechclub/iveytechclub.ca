@@ -88,7 +88,7 @@ Check out the deployed version at https://iveytechclub.github.io/iveytechclub.ca
 #### People (Team/Alumni Pages)
 
 1. From the root directory, navigate to **pages -> TeamPage -> assets -> TeamPhotos**.
-2. Once you see the list of team member image files, click **Add file -> Upload files**, at the top right corner of the page. We recommend JPEG files no larger than `100kB`, at a resolution of about `700x700px` (square cropped), to optimize loading times. It may help to follow naming convention `firstname_lastname.xxx`. 
+2. Once you see the list of team member image files, click **Add file -> Upload files**, at the top right corner of the page. We recommend JPEG files no larger than `100kB`, at a resolution of about `700x700px` (square cropped), to optimize loading times. It may help to follow naming convention `firstname_lastname.xxx`.
 3. Once you've added your image files, click **Commit changes** at the bottom of the page.
 4. Go back to the root directory by clicking on **/iveytechclub.ca** in the top left corner.
 5. From the root directory, navigate to **pages -> TeamPage -> team.json**.
@@ -117,6 +117,10 @@ Pages that feature repetitive components (like the Team page) use React to rende
 1. Clone this repo to your local machine.
 2. After running `npm install`, you can run `live-server` in the root directory to get a development server running with hot reloading. The navbar links might appear broken, but you have to append `.html` manually. Github takes care of this in the production version for us (so we can avoid having the `.html` appear in the URL).
 3. You can run `npm run watch-jsx` to run the React compiler, which will listen for changes and build components from the `components` folder into the `build` folder. You only need to do this if you are revising the React components.
-4. **To-Do:**
+4. **Strongly** recommend using <u>Prettier</u> or another code formatter to enforce consistency. Especially relevant for this project which has sprawling HTML and JSON sheets. Please keep this documentation updated :)
+
+##### To-Do:
+
 - Refactor to use Sass or some other tool to make typing CSS less cumbersome. Otherwise, pay attention to CSS specificity patterns to avoid unintended styling.
+- Add loading buffer animation. Some pages have a lot of images and it takes longer to load.
 - Consider adding calendar to the `events` page?
