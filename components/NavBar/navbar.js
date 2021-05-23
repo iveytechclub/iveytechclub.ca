@@ -3,7 +3,7 @@ class NavBar extends React.Component {
   constructor(props) {
     super(props);
     // assign to current page
-    this.state = { active: PAGE };
+    this.state = { active: PAGE }; // page is a variable declared in HTML for that page
   }
 
   render() {

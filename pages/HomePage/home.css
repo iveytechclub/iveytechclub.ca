@@ -2,6 +2,7 @@ section#main-hero {
   margin-top: 90px;
   padding-top: 60px;
   padding-bottom: 60px;
+  overflow: hidden;
 }
 
 section#main-hero #welcome-callout {
@@ -37,6 +38,7 @@ section#main-hero .typed-cursor {
 
 #scene {
   height: 320px;
+  overflow: hidden;
 }
 
 #layer-1,

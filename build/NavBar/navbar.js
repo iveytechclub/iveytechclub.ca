@@ -17,7 +17,7 @@ var NavBar = function (_React$Component) {
     // assign to current page
     var _this = _possibleConstructorReturn(this, (NavBar.__proto__ || Object.getPrototypeOf(NavBar)).call(this, props));
 
-    _this.state = { active: PAGE };
+    _this.state = { active: PAGE }; // page is a variable declared in HTML for that page
     return _this;
   }
 
