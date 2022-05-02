@@ -112,7 +112,7 @@ Check out the deployed version at https://iveytechclub.ca.
 ### General Notes:
 
 This site is built using a mix of React, Bootstrap and vanilla HTML/CSS/JS.
-Pages that feature repetitive components (like the Team page) use React to render HTML dynamically from JSON. This was done to make updating the pages fairly simnple. If you have any questions, please reach out to **jchen.hba2021@ivey.ca**.
+Pages that feature repetitive components (like the Team page) use React to render HTML dynamically from JSON. This was done to make updating the pages fairly simple. If you have any questions, please reach out to **jchen.hba2021@ivey.ca**.
 
 1. Clone this repo to your local machine.
 2. After running `npm install`, you can run `live-server` in the root directory to get a development server running with hot reloading. The navbar links might appear broken, but you have to append `.html` manually. Github takes care of this in the production version for us (so we can avoid having the `.html` appear in the URL).
