@@ -1,6 +1,65 @@
 {
   "alumniCohorts": [
     {
+      "year": "2021-2022",
+      "team": [
+        {
+          "imgURL": "donna_xue.jpg",
+          "name": "Donna Xue",
+          "role": "Co-President",
+          "linkedin": "https://www.linkedin.com/in/donnaxue/"
+        },
+        {
+          "imgURL": "sajin_kowser.jpg",
+          "name": "Sajin Kowser",
+          "role": "Co-President",
+          "linkedin": "https://www.linkedin.com/in/sajinkowser/"
+        },
+        {
+          "imgURL": "prapthi_agarwala.JPG",
+          "name": "Prapthi Agarwala",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/prapthiagarwala/"
+        },
+        {
+          "imgURL": "david_george.PNG",
+          "name": "David George",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/david-george-8a0934121/"
+        },
+        {
+          "imgURL": "jenny_song.jpg",
+          "name": "Jenny Song",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/songjenn/"
+        },
+        {
+          "imgURL": "sam_zhang.jpg",
+          "name": "Sam Zhang",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/samuelzhang2000/"
+        },
+        {
+          "imgURL": "owen_hodges.jpeg",
+          "name": "Owen Hodges",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/owenhodgesuwo"
+        },
+        {
+          "imgURL": "amanda_adam.jpg",
+          "name": "Amanda Adam",
+          "role": "Exec",
+          "linkedin": "https://linkedin.com/in/adamamanda"
+        },
+        {
+          "imgURL": "sam_mcdougall.jpg",
+          "name": "Sam McDougall",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/samanthamcdougall"
+        }
+      ]
+    },
+    {
       "year": "2020-2021",
       "team": [
         {
