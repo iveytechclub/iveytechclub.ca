@@ -1,85 +1,103 @@
 {
   "currentTeam": [
     {
-      "imgURL": "donna_xue.jpg",
-      "name": "Donna Xue",
+      "imgURL": "anjana_somasundaram.png",
+      "name": "Anjana Somasundaram",
       "role": "Co-President",
-      "linkedin": "https://www.linkedin.com/in/donnaxue/",
-      "workExperience": "PM @ Microsoft",
-      "whyTech": "Technology holds so much positive potential in impacting the lives of all consumers — from Tap Tap Revenge to pocket mental health resources, tech has raised me and helped me live happier!",
+      "linkedin": "https://www.linkedin.com/in/anjanasomar/",
+      "workExperience": "Business Analyst Intern @ McKinsey Digital",
+      "whyTech": "Tech enables you to both build and break things at a scale unlike any other!",
       "preIveyProgram": "Computer Science"
     },
     {
-      "imgURL": "sajin_kowser.jpg",
-      "name": "Sajin Kowser",
+      "imgURL": "apaar_vijay.jpg",
+      "name": "Apaar Vijay",
       "role": "Co-President",
-      "linkedin": "https://www.linkedin.com/in/sajinkowser/",
-      "workExperience": "TPM @ Uber",
-      "whyTech": "I've always wanted super powers growing up & building with tech was the closest thing to that.",
-      "preIveyProgram": "Computer Science"
-    },
-    {
-      "imgURL": "prapthi_agarwala.JPG",
-      "name": "Prapthi Agarwala",
-      "role": "VP Operations",
-      "linkedin": "https://www.linkedin.com/in/prapthiagarwala/",
-      "workExperience": "PM @ Baaz",
-      "whyTech": "Tech allows me to do all I've wanted to do, which is make a positive impact and build things!",
-      "preIveyProgram": "Computer Science"
-    },
-    {
-      "imgURL": "david_george.PNG",
-      "name": "David George",
-      "role": "VP Development",
-      "linkedin": "https://www.linkedin.com/in/david-george-8a0934121/",
-      "workExperience": "SWE @ Quorum Software",
-      "whyTech": "The unique combination of logical problem solving with an inherent human focus,  makes tech a beautiful myriad of different disciplines – one ripe with incredible stories, great triumphs and a fundamental optimism for a better future.",
-      "preIveyProgram": "Computer Science"
-    },
-    {
-      "imgURL": "jenny_song.jpg",
-      "name": "Jenny Song",
-      "role": "Co-VP Mentorship",
-      "linkedin": "https://www.linkedin.com/in/songjenn/",
-      "workExperience": "PM @ Microsoft",
-      "whyTech": "Technology gives us the power to postitively impact the lives of millions of people around the world, and I want to create that change.",
-      "preIveyProgram": "Software Engineering"
-    },
-    {
-      "imgURL": "sam_zhang.jpg",
-      "name": "Sam Zhang",
-      "role": "Co-VP Mentorship",
-      "linkedin": "https://www.linkedin.com/in/samuelzhang2000/",
-      "workExperience": "PM @ Microsoft",
-      "whyTech": "The frontier for solving the world's most challenging problems is the innovation in and application of tech. With so many opportunities to make impact, how can you not get excited!",
-      "preIveyProgram": "Computer Science"
-    },
-    {
-      "imgURL": "owen_hodges.jpeg",
-      "name": "Owen Hodges",
-      "role": "VP Communications",
-      "linkedin": "https://www.linkedin.com/in/owenhodgesuwo",
-      "workExperience": "PM @ Health-Tech Startup",
-      "whyTech": "Tech is taking on some of the world’s biggest challenges and making the seemingly impossible, possible. Careers in the tech industry have the greatest potential to impact people's lives directly and to play a leading role in shaping the future.",
+      "linkedin": "https://www.linkedin.com/in/apaarvijay/",
+      "workExperience": "Finance @ Pipe",
+      "whyTech": "Tech is one of the biggest vehicles for impact in the world!",
       "preIveyProgram": "BMOS"
     },
     {
-      "imgURL": "amanda_adam.jpg",
-      "name": "Amanda Adam",
-      "role": "Co-VP Events",
-      "linkedin": "https://linkedin.com/in/adamamanda",
-      "workExperience": "Tech Consulting & PM @ Deloitte",
-      "whyTech": "Tech has allowed me to explore my passion for entrepreneurship. I enjoy solving complex problems, and with tech, I can develop and implement creative solutions to these challenges!",
-      "preIveyProgram": "Software Engineering"
+      "imgURL": "janice_xu.jpg",
+      "name": "Janice Xu",
+      "role": "VP Operations",
+      "linkedin": "https://www.linkedin.com/in/janicexu16/",
+      "workExperience": "Data Science Intern @ Shopify",
+      "whyTech": "The scale and impact created by technology is immeasurable, it truly can solve the world’s deepest problems and create positive change!",
+      "preIveyProgram": "Computer Science"
     },
     {
-      "imgURL": "sam_mcdougall.jpg",
-      "name": "Sam McDougall",
+      "imgURL": "nathan_pogue.jpg",
+      "name": "Nathan Pogue",
+      "role": "Co-VP Development",
+      "linkedin": "https://www.linkedin.com/in/npogue/",
+      "workExperience": "Solutions Architect @ AWS",
+      "whyTech": "Tech teaches you how to overcome challenges, develop your critical thinking skills, and foster change to help make the world a better place.",
+      "preIveyProgram": "Computer Science"
+    },
+    {
+      "imgURL": "celina_shen.jpg",
+      "name": "Celina Shen",
+      "role": "Co-VP Development",
+      "linkedin": "https://www.linkedin.com/in/celinashen/",
+      "workExperience": "SWE Intern @ Microsoft",
+      "whyTech": "Building with tech feels a bit like magic; you can craft any idea into a product✨ ",
+      "preIveyProgram": "Computer Science"
+    },
+    {
+      "imgURL": "rosy_ren.jpg",
+      "name": "Rosy Ren",
+      "role": "Co-VP Mentorship",
+      "linkedin": "https://www.linkedin.com/in/rosyren/",
+      "workExperience": "Technology Consultant Intern @ IBM",
+      "whyTech": "The possibilities of tech are endless.",
+      "preIveyProgram": "Computer Science"
+    },
+    {
+      "imgURL": "tanay_shah.jpg",
+      "name": "Tanay Shah",
+      "role": "Co-VP Mentorship",
+      "linkedin": "https://www.linkedin.com/in/tanayshah55/",
+      "workExperience": "Business Operations @ Snapcommerce",
+      "whyTech": "Tech is a gateway that allows anyone to tackle complex world changing problems.",
+      "preIveyProgram": "BMOS"
+    },
+    {
+      "imgURL": "sabrina_wen.jpeg",
+      "name": "Sabrina Wen",
+      "role": "Co-VP Communications",
+      "linkedin": "https://www.linkedin.com/in/sabrina-wen/",
+      "workExperience": "Business Analyst @ RBC Amplify",
+      "whyTech": "Tech enables evolution - the mindset to keep innovating and improving and create an impact on everyday lives :)",
+      "preIveyProgram": "MIT"
+    },
+    {
+      "imgURL": "allen_lam.jpg",
+      "name": "Allen Lam",
+      "role": "Co-VP Communications",
+      "linkedin": "https://www.linkedin.com/in/allen-lam/",
+      "workExperience": "Customer & Digital @ Bell",
+      "whyTech": "Technology has the ability to bring people together and make opportunities more accessible for marginalized communities.",
+      "preIveyProgram": "Economics"
+    },
+    {
+      "imgURL": "shankari_sivanathan.jpg",
+      "name": "Shankari Sivanathan",
       "role": "Co-VP Events",
-      "linkedin": "https://www.linkedin.com/in/samanthamcdougall",
-      "workExperience": "Tech Consulting @ Deloitte",
-      "whyTech": "I have always loved the left-brain and right-brain duality of tech - solving problems using analytical and logical as well as creative and innovative thinking. I wanted to play a role in the fast-paced technology industry, shaping our future with challenging and varying work in high demand.",
-      "preIveyProgram": "Software Engineering"
+      "linkedin": "https://www.linkedin.com/in/shankarisivanathan/",
+      "workExperience": "Product Manager Intern @ Redfin",
+      "whyTech": "",
+      "preIveyProgram": "BMOS"
+    },
+    {
+      "imgURL": "sonya_cao.jpg",
+      "name": "Sonya Cao",
+      "role": "Co-VP Events",
+      "linkedin": "https://www.linkedin.com/in/sonya-cao/",
+      "workExperience": "Tech Sales @ IBM",
+      "whyTech": "I love the diversity of the tech industry - everyone has a unique perspective fostered by their own personal journey.",
+      "preIveyProgram": "Computer Science"
     }
   ]
 }
