@@ -122,7 +122,7 @@ var TeamCollection = function (_React$Component) {
                 React.createElement(
                   "div",
                   { className: "label why-tech" },
-                  "Why Tech:"
+                  "What do you ❤️ about tech:"
                 ),
                 React.createElement(
                   "div",

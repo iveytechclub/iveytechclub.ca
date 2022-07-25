@@ -122,9 +122,18 @@ div.team-page div.team-container div.member-container div.right div.subheading {
 div.team-page div.team-container div.member-container div.right div.label {
   color: var(--black);
   font-weight: bold;
-  width: 175px;
+  min-width: 175px;
+  max-width: 175px;
   display: inline-table;
 }
+
+div.team-page
+    div.team-container
+    div.member-container
+    div.right
+    div.info.why-tech {
+    max-width: 500px;
+  }
 
 @media (max-width: 991px) {
   div.team-page
@@ -149,6 +158,11 @@ div.team-page div.team-container div.member-container div.right div.label {
     flex-wrap: wrap;
   }
 
+  div.team-page div.team-container div.member-container div.right div.label {
+    min-width: 230px;
+    max-width: 230px;
+  }
+
   div.team-page
     div.team-container
     div.member-container
@@ -168,5 +182,10 @@ div.team-page div.team-container div.member-container div.right div.label {
     div.right
     div.subheading {
     font-size: 0.8rem;
+  }
+
+  div.team-page div.team-container div.member-container div.right div.label {
+    min-width: 150px;
+    max-width: 150px;
   }
 }
