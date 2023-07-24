@@ -1,5 +1,76 @@
 {
   "alumniCohorts": [
+       {
+      "year": "2022-2023",
+      "team": [
+        {
+          "imgURL": "anjana_somasundaram.jpg",
+          "name": "Anjana Somasundaram",
+          "role": "Co-President",
+          "linkedin": "https://www.linkedin.com/in/anjanasomar/"
+        },
+        {
+          "imgURL": "apaar_vijay.jpg",
+          "name": "Apaar Vijay",
+          "role": "Co-President",
+          "linkedin": "https://www.linkedin.com/in/apaarvijay/"
+        },
+        {
+          "imgURL": "janice_xu.JPG",
+          "name": "Janice Xu",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/janicexu16/"
+        },
+        {
+          "imgURL": "nathan_pogue.JPG",
+          "name": "Nathan Pogue",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/npogue/"
+        },
+        {
+          "imgURL": "celina_shen.jpg",
+          "name": "Celina Shen",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/celinashen/"
+        },
+        {
+          "imgURL": "rosy_ren.JPG",
+          "name": "Rosy Ren",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/rosyren/"
+        },
+        {
+          "imgURL": "tanay_shah.jpg",
+          "name": "Tanay Shah",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/tanayshah55/"
+        },
+        {
+          "imgURL": "sabrina_wen.jpeg",
+          "name": "Sabrina Wen",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/sabrina-wen/"
+        },
+        {
+          "imgURL": "allen_lam.JPG",
+          "name": "Allen Lam",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/allen-lam/"
+        },
+        {
+          "imgURL": "shankari_sivanathan.jpg",
+          "name": "Shankari Sivanathan",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/shankarisivanathan/"
+        },
+        {
+          "imgURL": "sonya_cao.jpg",
+          "name": "Sonya Cao",
+          "role": "Exec",
+          "linkedin": "https://www.linkedin.com/in/sonya-cao/"
+        }
+      ]
+    },
     {
       "year": "2021-2022",
       "team": [
