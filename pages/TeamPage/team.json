@@ -1,7 +1,7 @@
 {
   "currentTeam": [
     {
-      "imgURL": "carrie_lu.JPG",
+      "imgURL": "carrie_lu.jpeg",
       "name": "Carrie Lu",
       "role": "Co-President",
       "linkedin": "https://www.linkedin.com/in/carrielu02/",
@@ -55,13 +55,13 @@
       "preIveyProgram": "Computer Science"
     },
     {
-      "imgURL": "tanay_shah.jpg",
-      "name": "Tanay Shah",
+      "imgURL": "justin_yan.JPG",
+      "name": "Justin Yan",
       "role": "Co-VP Mentorship",
-      "linkedin": "https://www.linkedin.com/in/tanayshah55/",
-      "workExperience": "Business Operations @ Snapcommerce",
-      "whyTech": "Tech is a gateway that allows anyone to tackle complex world changing problems.",
-      "preIveyProgram": "BMOS"
+      "linkedin": "https://www.linkedin.com/in/justinyan13/",
+      "workExperience": "Intern @ Anheuser-Busch",
+      "whyTech": "Tech evolves and gets better every single day!",
+      "preIveyProgram": "Computer Science"
     },
     {
       "imgURL": "laura_zhao.jpeg",
